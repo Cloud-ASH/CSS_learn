@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Antra Navigation</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Top bar with logo, notification, user, search -->
+      <div class="top-bar">
+        <div class="top-bar-container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="https://antra.com">
+            <img src="static/img/AntraLogo.png" alt="Antra Logo" />
+          </a>
+
+          <!-- Right side: notification, user, search -->
+          <div class="top-right">
+            <a href="#" class="notification-icon">
+              <i class="fas fa-bell"></i> 0
+            </a>
+            <div class="user-dropdown">
+              <a href="#" class="user-link">USER</a>
+              <ul class="user-menu">
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </div>
+            <form class="search-form">
+              <input type="search" placeholder="Search..." />
+              <button type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Navigation -->
+      <nav class="main-nav">
+        <div class="main-nav-container">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="https://antra.com/blogs/">NEWS</a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a class="nav-link" href="https://antra.com/about-us/">
+                ABOUT THE UNIVERSITY
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="https://antra.com/about-us/">Overview</a>
+                </li>
+                <li>
+                  <a href="https://antra.com/careers/">Careers</a>
+                </li>
+                <li>
+                  <a href="https://antra.com/blogs/">Blogs</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a class="nav-link" href="https://antra.com/workforce-solutions/">
+                TRAINING COURSES
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    href="https://antra.com/workforce-solutions/hire-train-deploy/"
+                    >Hire-Train-Deploy</a
+                  >
+                </li>
+                <li>
+                  <a href="https://antra.com/technology-solutions/data-and-ai/"
+                    >Data & AI</a
+                  >
+                </li>
+                <li>
+                  <a href="https://antra.com/technology-solutions/cloud/"
+                    >Cloud Solutions</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://antra.com/workforce-solutions/"
+                >FOR COMPANIES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://antra.com/blogs/">FORUM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://antra.com/contact-us/"
+                >CONTACTS</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
